@@ -1,0 +1,36 @@
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+/* кнопки #2196F3
+текст #212121
+*/
+.link:hover, 
+.link:focus {
+    color: #2196F3;
+}
+.button-link:hover,
+.button-link:focus{
+    color: #2196F3;
+}
+
+.button-link {
+    cursor: pointer;
+}
+
+.hat {
+    background-color: #2F303A;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.basement {
+    background-color: #2F303A;
+}
+
+.hat-title {
+    color:#FFFFFF;
+}
