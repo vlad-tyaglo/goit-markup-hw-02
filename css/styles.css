@@ -9,6 +9,11 @@ body {
     color: #2196F3;
 }
 
+.contact:hover, 
+.contact:focus {
+    color: #2196F3;
+}
+
 .basement-link:hover, 
 .basement-link:focus {
     color: #2196F3;
@@ -16,19 +21,21 @@ body {
 
 .button-link:hover,
 .button-link:focus{
-    color: #2196F3;
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .button-link {
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
+    background-color: #F5F4FA;
 }
 
-.button-hat:hover,
+/* .button-hat:hover,
 .button-hat:focus{
     color: #2196F3;
-}
+} */
 
 .button-hat {
     cursor: pointer;
@@ -36,6 +43,8 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .hat-title {
@@ -56,6 +65,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142857143;
+    color: #757575;
 }
 
 .activity {
@@ -67,12 +77,28 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428571429;
+    color: #212121;
 }
 
-.basement-link {
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    color: #757575;
+}
+
+.basement-adress {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142857143;
+    color: #FFFFFF;
+}
+
+.basement-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142857143;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .team {
@@ -90,6 +116,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
+    color: #757575;
 }
 
 .project-title {
@@ -103,10 +130,13 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
+    color: #757575;
 }
 
-
-
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+}
 
 
 
@@ -120,11 +150,11 @@ body {
 
 .team {
     background-color: #F5F4FA;
-}
+} 
 
 .basement {
     background-color: #2F303A;
 }
+ */
 
-  */
 
