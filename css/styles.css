@@ -30,6 +30,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     background-color: #F5F4FA;
+    letter-spacing: 0.03em;
 }
 
 /* .button-hat:hover,
@@ -42,9 +43,10 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.88;
     color: #FFFFFF;
     background-color: #2196F3;
+    letter-spacing: 0.06em;
 }
 
 .hat-title {
@@ -52,90 +54,109 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 
 .specialty-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1428571429;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 
 .specialty-paragraph {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7142857143;
+    line-height: 1.71;
     color: #757575;
+    letter-spacing: 0.03em;
+    
 }
 
 .activity {
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
+
+/* навигация по шапке */
 
 .link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1428571429;
+    line-height: 1.14;
     color: #212121;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
+/* контакты шапка*/
 .contact {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1428571429;
+    line-height: 1.14;
     color: #757575;
+    letter-spacing: 0.02em;
 }
 
+/* контакты подвал */
 .basement-adress {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7142857143;
+    line-height: 1.71;
     color: #FFFFFF;
+    letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .basement-contact {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7142857143;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .team {
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 .team-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .team-paragraph {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
 .project-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 
 .project-paragraph {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.19;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
 .logo {
     font-weight: 700;
     font-size: 26px;
+    font-style: normal;
 }
 
 
@@ -144,17 +165,17 @@ body {
 
 
 
-/* .hat {
+.hat {
     background-color: #2F303A;
 }
 
-.team {
+.workers {
     background-color: #F5F4FA;
 } 
 
 .basement {
     background-color: #2F303A;
 }
- */
+
 
 
