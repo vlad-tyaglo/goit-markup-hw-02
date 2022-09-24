@@ -1,15 +1,19 @@
 body {
     background-color: #FFFFFF;
     color: #212121;
+    font-family: Roboto, sans-serif;
 }
 
-/* кнопки #2196F3
-текст #212121
-*/
 .link:hover, 
 .link:focus {
     color: #2196F3;
 }
+
+.basement-link:hover, 
+.basement-link:focus {
+    color: #2196F3;
+}
+
 .button-link:hover,
 .button-link:focus{
     color: #2196F3;
@@ -17,9 +21,100 @@ body {
 
 .button-link {
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
 }
 
-.hat {
+.button-hat:hover,
+.button-hat:focus{
+    color: #2196F3;
+}
+
+.button-hat {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+}
+
+.hat-title {
+    color:#FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.specialty-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428571429;
+}
+
+
+.specialty-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142857143;
+}
+
+.activity {
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+}
+
+.basement-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142857143;
+}
+
+.team {
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+}
+
+.team-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+.project-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+}
+
+
+
+
+
+
+
+
+
+
+/* .hat {
     background-color: #2F303A;
 }
 
@@ -31,6 +126,5 @@ body {
     background-color: #2F303A;
 }
 
-.hat-title {
-    color:#FFFFFF;
-}
+  */
+
