@@ -1,35 +1,50 @@
+:root {
+--primary-text-color: #212121;
+--paragraph-text-color: #757575;
+--accent-color: #2196F3;
+--title-text-color: #FFFFFF;
+--background-basic-color: #FFFFFF;
+--secondary-background-color: #2F303A;
+--button-background-color: #F5F4FA;  
+--basement-contact-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
-    background-color: #FFFFFF;
-    color: #212121;
+    background-color: var(--background-basic-color);
+    color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
 }
 
 .link:hover, 
 .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contact:hover, 
 .contact:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .basement-link:hover, 
 .basement-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .button-link:hover,
 .button-link:focus{
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
 }
 
 .button-link {
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
-    background-color: #F5F4FA;
+    background-color: var(--button-background-color);
     letter-spacing: 0.03em;
 }
 
@@ -44,13 +59,13 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
     letter-spacing: 0.06em;
 }
 
 .hat-title {
-    color:#FFFFFF;
+    color:var(--title-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -68,12 +83,13 @@ body {
 .specialty-paragraph {
     font-size: 14px;
     line-height: 1.71;
-    color: #757575;
+    color: var(--paragraph-text-color);
     letter-spacing: 0.03em;
     
 }
 
 .activity {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
@@ -85,9 +101,10 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #212121;
+    color: var(--primary-text-color);
     letter-spacing: 0.02em;
     font-style: normal;
+    text-decoration: none;
 }
 
 /* контакты шапка*/
@@ -95,28 +112,32 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #757575;
+    color: var(--paragraph-text-color);
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 /* контакты подвал */
 .basement-adress {
     font-size: 14px;
     line-height: 1.71;
-    color: #FFFFFF;
+    color: var(--title-text-color);
     letter-spacing: 0.03em;
     font-style: normal;
+    text-decoration: none;
 }
 
 .basement-contact {
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--basement-contact-color);
     letter-spacing: 0.03em;
     font-style: normal;
+    text-decoration: none;
 }
 
 .team {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
@@ -133,7 +154,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    color: #757575;
+    color: var(--paragraph-text-color);
     letter-spacing: 0.03em;
 }
 
@@ -149,32 +170,46 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    color: #757575;
+    color: var(--paragraph-text-color);
     letter-spacing: 0.03em;
 }
 
 .logo {
     font-weight: 700;
     font-size: 26px;
-    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    line-height: 1.19;
 }
 
-
-
-
-
-
+.basement .logo {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+.accent {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--accent-color);
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
 
 .hat {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 
 .workers {
-    background-color: #F5F4FA;
+    background-color: var(--button-background-color);
 } 
 
 .basement {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 
 
