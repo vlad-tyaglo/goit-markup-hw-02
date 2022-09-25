@@ -40,12 +40,24 @@ body {
     background-color: var(--accent-color);
 }
 
+.basement-adress:hover, 
+.basement-adress:focus {
+    color: var(--accent-color);
+}
+
+.basement-contact:hover, 
+.basement-contact:focus {
+    color: var(--accent-color);
+}
+
+
 .button-link {
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
     background-color: var(--button-background-color);
     letter-spacing: 0.03em;
+    line-height: 1.63;
 }
 
 /* .button-hat:hover,
@@ -181,6 +193,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     line-height: 1.19;
+    font-family: 'Raleway';
 }
 
 .basement .logo {
@@ -188,6 +201,7 @@ body {
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 1.19;
+    font-family: 'Raleway';
     text-decoration: none;
     color: var(--title-text-color);
 }
@@ -197,6 +211,7 @@ body {
     color: var(--accent-color);
     line-height: 1.19;
     letter-spacing: 0.03em;
+    font-family: 'Raleway';
     text-decoration: none;
 }
 
