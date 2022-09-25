@@ -60,11 +60,6 @@ body {
     line-height: 1.63;
 }
 
-/* .button-hat:hover,
-.button-hat:focus{
-    color: #2196F3;
-} */
-
 .button-hat {
     cursor: pointer;
     font-family: inherit;
